@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+div {
+    /* overflow-y: hidden !important; */
+    overflow-x: hidden;
+}
+
+
+/* Nav bar css */
+.navbar {
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+
+    background-color: white !important;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.active {
+    border-bottom: 1px solid red !important;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: rgb(34, 151, 151) !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+/* Home Page css */
+#header {
+    /* width: 100%; */
+    /* height: 100vh; */
+
+}
+
+.col-lg-6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+
+}
+
+.img {
+    padding-right: 100px;
+    /* padding-left: -150px; */
+    text-align: left
+}
+
+.col-lg-6 h1 {
+    text-transform: lowercase;
+    padding: 10px 40px 20px 30px;
+    font-size: 30px;
+    /* background-color: lightgreen; */
+}
+
+.col-lg-6 h1::first-letter {
+    text-transform: capitalize;
+}
+
+.col-lg-6 .name {
+    text-transform: uppercase;
+    padding-left: 1 00px;
+    color: rgb(100, 201, 219);
+}
+
+.col-lg-6 .moto {
+    text-transform: lowercase;
+    /* text-align: left !important; */
+    padding-left: 10px;
+    font-size: 20px;
+
+    /* background-color: lightcoral; */
+    padding: 20px 0px 10px 0px;
+}
+
+.col-lg-6 .moto::first-letter {
+
+    text-transform: capitalize;
+
+}
+
+.col-lg-6 .button {
+    /* background-color: lightblue; */
+    padding: 30px 0px 30px 0px
+}
+
+.btn-start {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    color: rgb(100, 201, 219);
+    border: 3px solid rgb(100, 201, 219)
+}
+
+.btn-start:hover {
+    color: white;
+    transition: 0.4s;
+    background-color: rgb(100, 201, 219)
+}
+
+
+
+/* Error page css */
+.error {
+    height: 80vh;
+    /* margin :0 auto !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 250px ; */
+}
+
+.error h1 {
+    padding: 0px 0px 40px 0px;
+    font-size: 40px;
+}
+
+.error .err {
+    color: rgb(233, 77, 77);
+    font-size: 45px;
+}
+
+.error p {
+    font-size: 25px;
+    color: rgb(85, 93, 100);
+    padding-bottom: 40px;
+}
+
+.btn-err {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    color: rgb(100, 201, 219);
+    border: 3px solid rgb(100, 201, 219)
+}
+
+.btn-err:hover {
+    color: white;
+    transition: 0.4s;
+    background-color: rgb(100, 201, 219)
+}
+
+.button-err {
+    padding: 15px 0px 15px 0px
+}
+
+/* Services page */
+.services {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.card-body a {
+    padding-top: 10px !important;
+}
+
+.card {
+    max-width: 400px;
+    /* min-width: 400px; */
+    padding: none !important;
+    margin: 15px;
+    border: none;
+    min-height: 300px;
+}
+
+.card-row {
+    padding-right: 15px;
+}
+
+.card-img-top {
+    min-height: 200px;
+    max-height: 200px;
+    /* min-width: 400px;
+    max-width: 400px; */
+}
+
+
+/* Contact us */
+.form {
+    padding: 60px 10px 30px 10px;
+
+}
+
+.area {
+    padding: 10px 5px 10px 5px;
+}
+
+.area input {
+    width: 100%;
+    min-height: 30px;
+    padding: 5px;
+
+}
+
+.area textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit {
+    min-width: 120px;
+}
+
+/* About */
+.about{
+    height: auto;
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+    margin:0 auto;
+    background-color: lightslategray;
+}
+.footer p{
+    text-align: center;
+}
